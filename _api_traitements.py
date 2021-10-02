@@ -14,9 +14,9 @@ from shapely.geometry import MultiPoint, Point
 from shapely.geometry import mapping
 
 app = FastAPI()
-#-----------------------------------------------------------------------------#
-#Réchercjhes et affichage de parcelles grace aux infos telles que long et lat #
-#-----------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------#
+#Réchercjhes et affichage de parcelles grace aux infos telles que longitude et latitude #
+#---------------------------------------------------------------------------------------#
 class coordonnees(BaseModel):
     url:str 
     longitude:float
