@@ -2,7 +2,7 @@ from typing import Optional
 import geopandas as gpd
 from fastapi import FastAPI
 from pydantic import BaseModel
-app = FastAPI()
+
 from math import *
 import numpy as np
 
@@ -13,7 +13,7 @@ import glob
 from shapely.geometry import MultiPoint, Point
 from shapely.geometry import mapping
 
-
+app = FastAPI()
 #-----------------------------------------------------------------------------#
 #Réchercjhes et affichage de parcelles grace aux infos telles que long et lat #
 #-----------------------------------------------------------------------------#
